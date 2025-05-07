@@ -1,6 +1,5 @@
 "use client";
 import { itemsNavbar } from "@/data";
-import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";  
 import Link from "next/link";
 import MotionTransition from "./transition-components";
@@ -9,7 +8,7 @@ function Navbar() {
   const router = usePathname();
 
   return ( 
-    <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto bottom-10">
+    <MotionTransition position="top" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto bottom-5">
         <nav>
             <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
             {

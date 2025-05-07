@@ -1,29 +1,14 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
-import { SiYoutube, SiLinkedin, SiX, SiTwitch  } from "react-icons/si";
+import { BookText, CodeSquare, HomeIcon, UserRound, Rss, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { SiYoutube, SiLinkedin, SiX, SiTwitch, SiGithub  } from "react-icons/si";
 export const socialNetworks = [
     {
         id: 1,
-        logo: <SiYoutube size={30} strokeWidth={1} />,
+        logo: <SiGithub size={30} strokeWidth={0} />,
         src: "#!",
     },
     {
         id: 2,
-        logo: <SiLinkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <SiX size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <SiTwitch size={30} strokeWidth={1} />,
+        logo: <SiLinkedin size={30} strokeWidth={0} />,
         src: "#!",
     },
 ];

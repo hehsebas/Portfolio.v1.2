@@ -1,0 +1,72 @@
+"use client";
+import React, {useState, useEffect} from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import MotionTransition from "./transition-components";
+import MotionTransition2 from "./transition-component-home";
+import Link from "next/link";
+function Introduction(){
+    const [isVisible, setIsVisible] = useState(false);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 1500);
+        return () => clearTimeout(timer); 
+    },[]);
+    return (
+        <div className="z-20 w-full bg-darkBg/60">
+            <div className="z-20 grid items-center h-full p-6 py-20 md:py-20 md:grid-cols-2">
+                {isVisible && (
+                    <MotionTransition position="bottom">
+                        <div className="mt-10 flex justify-center">
+                            <Image src="/dev2.gif" priority width="300" height="300" alt="Profile Picture"/>
+                        </div>
+                    </MotionTransition>
+                    )}
+                {isVisible && (
+                    <MotionTransition2 position="right" >
+                        <div className="flex flex-col justify-center mt-10">
+                            <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md-text-4xl md:mb-10">
+                                Si puedes imaginarlo,<br/>
+                                <TypeAnimation
+
+                                sequence={[
+                                    "Puedes hacerlo.",
+                                    2000,
+                                    "Puedes programarlo.",
+                                    2000,
+                                    "Puedes optimizarlo.",
+                                    2000,
+                                    "Puedes desarrollarlo.",
+                                    2000,
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                repeat={Infinity}
+                                cursor={true}
+                                className="font-bold text-gray-400/100"
+                                />
+                            </h1>
+                            <p className="block mx-auto mb-2 text-m md:mx-0 md:mb-8 py-4 text-center md:text-left">
+                                Soy un desarrollador web con experiencia en la creación de aplicaciones web modernas y eficientes.
+                            </p>
+                            <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
+                                <Link href="/projects" 
+                                className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl 
+                                hover:shadow-md hover:shadow-blue-600/50"> 
+                                    Ver Proyectos
+                                </Link>
+                                <Link href="/about-me" 
+                                className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl 
+                                hover:shadow-md hover:shadow-blue-600/50"> 
+                                    Contacta conmigo
+                                </Link>
+                            </div>
+                        </div>
+                    </MotionTransition2>
+                    )}
+            </div>
+        </div>
+    );
+}
+export default Introduction;

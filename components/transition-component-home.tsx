@@ -1,5 +1,5 @@
 "use client"
-import { fadeIn } from "@/utils/motion.transitions";
+import { fadeIn2 } from "@/utils/motion.transitions";
 import {motion} from "framer-motion";
 
 interface MotionTransitionProps {
@@ -8,10 +8,10 @@ interface MotionTransitionProps {
     className?: string;
 
 }
-function MotionTransition ({children, position, className}: MotionTransitionProps) {
+function MotionTransition2 ({children, position, className}: MotionTransitionProps) {
     return (
         <motion.div
-            variants={fadeIn(position)}
+            variants={fadeIn2(position)}
             initial="hidden"
             animate="visible"
             exit="hidden"
@@ -24,4 +24,4 @@ function MotionTransition ({children, position, className}: MotionTransitionProp
 
     );
 }
-export default MotionTransition;
+export default MotionTransition2;
