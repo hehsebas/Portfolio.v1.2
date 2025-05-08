@@ -14,8 +14,8 @@ function Avatar() {
         <div>
 
         {isVisible && (
-            <MotionTransition2 position="right" className="bottom-0 right-20 hidden md:inline-block md:absolute">
-                <Image src="/avatar-1.png" width={300} height={300} alt="Avatar" className="w-full h-full}"/>
+            <MotionTransition2 position="right" className="bottom-0 right-0 hidden md:inline-block md:absolute">
+                <Image src="/avatar-1.png" width={300} height={300} alt="Avatar" className="w-full h-full"/>
             </MotionTransition2>
             )}
         </div>
