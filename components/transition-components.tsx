@@ -1,14 +1,17 @@
-"use client"
+"use client";
 import { fadeIn } from "@/utils/motion.transitions";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 interface MotionTransitionProps {
     children: React.ReactNode;
-    position: 'right' | 'bottom' | "top";
+    position: "right" | "bottom" | "top";
     className?: string;
-
 }
-function MotionTransition ({children, position, className}: MotionTransitionProps) {
+function MotionTransition({
+    children,
+    position,
+    className,
+}: MotionTransitionProps) {
     return (
         <motion.div
             variants={fadeIn(position)}
@@ -17,11 +20,8 @@ function MotionTransition ({children, position, className}: MotionTransitionProp
             exit="hidden"
             className={className}
         >
-        {
-            children
-        }
+            {children}
         </motion.div>
-
     );
 }
 export default MotionTransition;

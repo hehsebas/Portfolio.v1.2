@@ -6,11 +6,32 @@
 html, body {
   color: #fff;
   background: #071b39;
+  overflow-x: hidden;
 }
 main {
   background: #071b39;
   height: 100vh;
   height: 100dvh;
+}
+.container {
+  width: full;
+  max-width: 6xl;
+  padding-left: 4;
+  padding-bottom: 40;
+  margin-left: auto;
+  margin-top: 40;
+}
+@media (min-width: 768px){
+  .container {
+    padding-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: gray;
 }
 @layer utilities {
   .text-balance {

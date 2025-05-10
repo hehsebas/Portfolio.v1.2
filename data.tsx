@@ -4,12 +4,12 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <SiGithub size={30} strokeWidth={0} />,
-        src: "#!",
+        src: "https://github.com/hehsebas",
     },
     {
         id: 2,
         logo: <SiLinkedin size={30} strokeWidth={0} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/sebasti%C3%A1n-r-521163106/",
     },
 ];
 
@@ -51,61 +51,61 @@ export const dataAboutPage = [
     {
         id: 1,
         title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        subtitle: "Workana Freelancer",
+        description: "Development of dynamic and responsive user interfaces.\n Implementation of reusable components, improving code maintaninability and performance.\nIntegration of RESTful APis for real-time data handling.\nCollaboration with UX/UI designers to enhance user experience. \n Version control using Git and collaboration through GitHub working under agile methodologies.",
+        date: "Jun 2023-Present",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Intern",
+        subtitle: "SLB",
+        description: "Developed internal web applications for process visualization. \nDesigned and optimized user interfaces to improve accessibility and usability. \nIntegrated Power BI dashboards into web applications for real-time data visualization. \nDeveloped interactive UI components to streamline workflow automation. \nImplemented real-time data updates and notification system using WebSockets and EDA. \nCollaborated with backend developers to enhance system performance and usability. \nConducted code reviews and debugging to improve application stability..",
+        date: "Dec 2023-Dec 2024",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Ecommerce Developer",
+        subtitle: "Khalifa Marketing",
+        description: "Developed a real-time data visualization platform. \nDesigned and implemented a responsive and intuitive UI for data monitoring. \nBuilt an e-commerce frontend using Angular and TypeScript, ensuring a scalable and high-performance solution. \nIntegrated a product catalog. \nImplemented authentication and authorization with JWT.",
+        date: "Jun 2022-Present",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Frontend Developer",
+        subtitle: "Colombian Fixer",
+        description: "Designed and developed a responsive landing page for ColombianFixer using Angular and TypeScript. \nCreated a modern and engaging UI with interactive elements to improve user experience. \n Implemented SEO optimization techniques to enhance visibility and search rankings. \nIntegrated Google Analytics for performance tracking and user behavior analysis. \nCollaborated with the marketing team to align design with brand identity and goals. \n Integrated contact forms and Google Maps API for improved accessibility and usability.",
+        date: "Jun 2022- Jul 2022",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 3,
+        text: "Years of experience",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: 5,
+        text: "Satisfied clients",
         lineRight: true,
-        lineRightMobile: false,
+        lineRightMobile: true,
     },
     {
         id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
+        endCounter: 11,
+        text: "Finished projects",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
+        endCounter: 4,
+        text: "Certifications obtained",
+        lineRight: true,
+        lineRightMobile: true,
     },
 ];
 
@@ -140,33 +140,30 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Web Development",
+        image: "/image-7.png",
+        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "E-commerce Web",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Web strategies",
         image: "/image-3.jpg",
         urlGithub: "#!",
-        urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "Creative Ideas",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
-    {
+    /*{
         id: 5,
         title: "Webs Impactantes",
         image: "/image-5.jpg",
@@ -193,7 +190,7 @@ export const dataPortfolio = [
         image: "/image-8.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
-    }
+    }*/
 ];
 
 export const dataTestimonials = [
