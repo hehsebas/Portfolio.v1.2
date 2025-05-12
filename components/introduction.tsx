@@ -5,7 +5,6 @@ import MotionTransition from "./transition-components";
 import MotionTransition2 from "./transition-component-home";
 import Link from "next/link";
 import DelayedVisibility from "./visibility";
-import { PulsatingButton } from "./pulsating-button";
 function Introduction() {
   return (
     <div className="z-20 w-full bg-darkBg/60">

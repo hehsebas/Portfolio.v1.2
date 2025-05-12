@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
 import MotionTransition2 from "./transition-components";
 import DelayedVisibility from "./visibility";
 function Avatar() {
