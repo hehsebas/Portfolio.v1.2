@@ -18,7 +18,6 @@ function Cover() {
       setInit(true);
     });
   }, []);
-  6;
 
   return (
     init && (
