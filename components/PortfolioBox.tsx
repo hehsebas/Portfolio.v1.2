@@ -18,7 +18,7 @@ function PortfolioBox(props: PortfolioBoxProps) {
             </h3>
             <Image src={image} alt="Image Product" width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto" />
             <div className="flex gap-5 mt-5 justify-center">
-                <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-transparent border border-gray-600 hover:bg-blue-600/80">
+                <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-blue-600 border border-blue-600 hover:bg-blue-600/80">
                     Github   
                 </Link>
 

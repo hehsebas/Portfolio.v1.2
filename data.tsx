@@ -141,7 +141,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Web Development",
-        image: "/image-7.png",
+        image: "/image-8.png",
         urlGithub: "https://github.com/hehsebas",
     },
     {
@@ -152,16 +152,16 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Web strategies",
+        title: "Strategies for Web",
         image: "/image-3.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 4,
-        title: "Creative Ideas",
+        title: "Creative Ideas UI/UX",
         image: "/image-4.jpg",
         urlGithub: "#!",
-        urlDemo: "#!",
+        urlDemo: "https://github.com/hehsebas",
     },
     /*{
         id: 5,
@@ -196,33 +196,33 @@ export const dataPortfolio = [
 export const dataTestimonials = [
     {
         id: 1,
-        name: "George Snow",
+        name: "Alejandro Padilla",
         description:
             "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
         imageUrl: "/profile1.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "Alejandra Khalifa",
         description:
             "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
         imageUrl: "/profile2.png",
     },
     {
         id: 3,
-        name: "María García",
+        name: "Julián Vanegas",
         description:
             "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
         imageUrl: "/profile3.png",
     },
     {
         id: 4,
-        name: "Laura Snow",
+        name: "Geronimo Bustos",
         description:
             "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
         imageUrl: "/profile4.png",
     },
-    {
+    /*{
         id: 5,
         name: "Carlos Sánchez",
         description:
@@ -235,5 +235,5 @@ export const dataTestimonials = [
         description:
             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
         imageUrl: "/profile6.png",
-    },
+    },*/
 ];

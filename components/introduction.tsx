@@ -5,6 +5,7 @@ import MotionTransition from "./transition-components";
 import MotionTransition2 from "./transition-component-home";
 import Link from "next/link";
 import DelayedVisibility from "./visibility";
+import { PulsatingButton } from "./pulsating-button";
 function Introduction() {
   return (
     <div className="z-20 w-full bg-darkBg/60">
@@ -52,19 +53,20 @@ function Introduction() {
               </p>
               <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                 <Link
-                  href="/projects"
+                  href="/portfolio"
                   className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl 
                                 hover:shadow-md hover:shadow-blue-600/50"
                 >
-                  Ver Proyectos
+                  See projects
                 </Link>
                 <Link
-                  href="/about-me"
-                  className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl 
+                  href="https://www.linkedin.com/in/sebasti%C3%A1n-r-521163106/"
+                  className="inline-block px-3 py-2 transition-transform border-2 cursor-pointer border-blue-600/50 text-md rounded-xl bg-blue-600/50 
                                 hover:shadow-md hover:shadow-blue-600/50"
                 >
-                  Contacta conmigo
+                  Contact me
                 </Link>
+
               </div>
             </div>
           </MotionTransition2>
@@ -73,4 +75,4 @@ function Introduction() {
     </div>
   );
 }
-export default Introduction;
+export default Introduction ;
