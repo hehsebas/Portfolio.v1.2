@@ -15,10 +15,10 @@ function CounterServices() {
                 <div key={id} className={`${lineRight && "ltr"}`}>
                   <div
                     className={`${lineRight &&
-                      "px-16 border-2 border-transparent md:border-e-gray-600 text-center"
-                      } ${lineRightMobile && "border-e-gray-600"}`}
+                      "px-16 border-2 border-transparent text-center"
+                      } ${lineRightMobile}`}
                   >
-                    <p className="flex mb-2 text-4-xl font-extrabold md:text-4xl text-blue-600/90 font-extrabold justify-center ">
+                    <p className="flex mb-2 text-4-xl md:text-4xl text-blue-600/90 font-extrabold justify-center ">
                       + <CountUp end={endCounter} start={0} duration={5} />
                     </p>
                     <p className="text-m uppercase max-w-[100px]">{text}</p>

@@ -7,11 +7,42 @@ html, body {
   color: #fff;
   background: #071b39;
   overflow-x: hidden;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
 }
+
 main {
   background: #071b39;
-  height: 100vh;
-  height: 100dvh;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegurar que el gradiente ocupe toda la pantalla */
+.bg-gradient-full {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Estilos para centrar la paginación del Swiper de servicios */
+.swiper-services .swiper-pagination {
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin-top: 1rem !important;
+}
+
+.swiper-services .swiper-pagination-bullet {
+  margin: 0 4px !important;
 }
 .container {
   width: full;
