@@ -12,8 +12,8 @@ function Introduction() {
         <DelayedVisibility>
           <MotionTransition position="bottom">
             <div className="mt-10 flex justify-center">
-              <Image
-                src="/dev2.gif"
+              <Image className="rounded-full animate-floating hover:scale-110 transition-all duration-300"
+                src="/Banner-Home.png"
                 priority
                 width="300"
                 height="300"
@@ -53,13 +53,13 @@ function Introduction() {
               <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                 <Link
                   href="/portfolio"
-                  className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl hover:shadow-md hover:shadow-blue-600/50"
+                  className="px-3 py-2 transition-all border-2 cursor-pointer  border-blue-600/50 text-md w-fit rounded-xl hover:shadow-md hover:shadow-blue-600/50 z-999"
                 >
                   See projects
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/sebasti%C3%A1n-r-521163106/"
-                  className="inline-block px-3 py-2 transition-transform border-2 cursor-pointer border-blue-600/50 text-md rounded-xl bg-blue-600/50 hover:shadow-md hover:shadow-blue-600/50"
+                  className="inline-block px-3 py-2 transition-transform border-2 cursor-pointer border-blue-600/50 text-md rounded-xl bg-blue-600/50 hover:shadow-md hover:shadow-blue-600/50 z-999"
                 >
                   Contact me
                 </Link>

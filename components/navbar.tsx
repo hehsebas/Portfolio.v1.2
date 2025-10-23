@@ -18,7 +18,7 @@ function Navbar() {
             <Link
               key={item.id}
               href={item.link}
-              className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-blue-600/50 ${router === item.link ? "bg-blue-600/50" : ""
+              className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-blue-600/50 ${router === item.link ? "bg-blue-600/50 z-999"  : ""
                 }`}
             >
               {item.icon}

@@ -14,7 +14,7 @@ function PageAboutMe() {
         <DelayedVisibility>
           <MotionTransition position="top">
             <h1 className="flex items-center justify-center w-full text-2xl font-bold text-center ">
-              My personal trajectory.
+              My trajectory
             </h1>
           </MotionTransition>
         </DelayedVisibility>

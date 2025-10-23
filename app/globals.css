@@ -31,18 +31,133 @@ main {
   min-height: 100dvh;
 }
 
-/* Estilos para centrar la paginación del Swiper de servicios */
+/* Estilos para el Swiper de servicios */
+.swiper-services {
+  --swiper-pagination-color: #3b82f6;
+  --swiper-pagination-bullet-inactive-color: #6b7280;
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+  width: 100%;
+  max-width: 80rem;
+  margin-bottom: 2rem;
+  overflow: visible !important;
+}
+
+.swiper-services .swiper-wrapper {
+  padding: 10px 0;
+}
+
+.swiper-services .swiper-slide {
+  height: auto;
+}
+
+/* Paginación del Swiper de servicios */
 .swiper-services .swiper-pagination {
   position: relative !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   width: 100% !important;
-  margin-top: 1rem !important;
+  margin-top: 2rem !important;
 }
 
 .swiper-services .swiper-pagination-bullet {
   margin: 0 4px !important;
+}
+
+/* Card de servicio */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem 2rem;
+  margin: 0 0.25rem;
+  border-radius: 0.75rem;
+  background: rgba(10, 26, 47, 0.4);
+  backdrop-filter: blur(4px);
+  gap: 1rem;
+  border: 2px solid rgba(75, 85, 99, 0.5);
+  transition: all 300ms ease-in-out;
+}
+
+/* Ajuste de margen para desktop */
+@media (min-width: 768px) {
+  .service-card {
+    margin: 0 0.5rem;
+  }
+}
+
+.service-card:hover {
+  background: rgba(37, 99, 235, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+  transform: scale(1.02);
+}
+
+/* Contenedor del icono del servicio */
+.service-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0.5rem;
+  background: rgba(37, 99, 235, 0.1);
+  color: #60a5fa;
+  transition: all 300ms ease-in-out;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.service-card:hover .service-icon-container {
+  background: rgba(37, 99, 235, 0.2);
+  color: #93c5fd;
+}
+
+.service-icon {
+  font-size: 1.875rem;
+}
+
+/* Contenido del servicio */
+.service-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.service-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  transition: color 300ms ease-in-out;
+}
+
+.service-card:hover .service-title {
+  color: #93c5fd;
+}
+
+.service-description {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: #d1d5db;
+  line-height: 1.625;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.animate-floating {
+  animation: floating 3s infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
 }
 .container {
   width: full;

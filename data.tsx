@@ -104,19 +104,14 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Development of a solid and coherent brand identity, including logo design, colors and visual elements",
+        icon: <Computer />,
+        title: "Web Development",
+        description: "Design and development of custom websites, adapted to your needs",
     },
     {
         icon: <Pencil />,
         title: "Web Design",
         description: "Creative and professional design of intuitive and attractive web interfaces, focused on user experience",
-    },
-    {
-        icon: <Computer />,
-        title: "Web Development",
-        description: "Design and development of custom websites, adapted to your needs",
     },
     {
         icon: <Book />,
@@ -128,6 +123,11 @@ export const serviceData = [
         title: "SEO",
         description: "Optimization of online presence through advanced SEO strategies to position the website in the top search engine results.",
     },
+    {
+        icon: <Crop />,
+        title: "Branding",
+        description: "Development of a solid and coherent brand identity, including logo design, colors and visual elements",
+    },
 ];
 
 export const dataPortfolio = [
@@ -135,27 +135,21 @@ export const dataPortfolio = [
         id: 1,
         title: "Web Development",
         image: "/image-8.png",
-        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 2,
         title: "E-commerce Web",
         image: "/image-2.jpg",
-        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 3,
         title: "Strategies for Web",
         image: "/image-3.jpg",
-        urlGithub: "https://github.com/hehsebas",
     },
     {
         id: 4,
         title: "Creative Ideas UI/UX",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "https://github.com/hehsebas",
-    },
+        image: "/image-4.jpg",    },
     /*{
         id: 5,
         title: "Impactful Websites",
