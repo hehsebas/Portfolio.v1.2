@@ -9,8 +9,8 @@ function SlideServices() {
       {serviceData.map((item, index) => (
         <SwiperSlide key={index} className="h-auto">
           <div className="service-card">
-            <div className="service-icon-container">
-              <div className="service-icon">
+            <div className="service-icon-container !w-full h-[4rem] !bg-transparent">
+              <div className="service-icon !bg-[#2563eb1a] p-4 !rounded-2xl">
                 {item.icon}
               </div>
             </div>

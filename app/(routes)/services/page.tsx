@@ -26,7 +26,7 @@ function ServicesPage() {
                 <SlideServices />
               </div>
               <Link href="https://www.linkedin.com/in/sebasti%C3%A1n-r-521163106/">
-                <button className="px-3 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-blue-700 text-white-100 font-bold text-xl transition duration-300 ease-in-out border-2 cursor-pointer border-blue-600/50">
+                <button className="px-3 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-blue-700 text-white-100 font-semibold text-xl transition duration-300 ease-in-out border-2 cursor-pointer border-blue-600/50">
                   ¡Contact me!
                 </button>
               </Link>
