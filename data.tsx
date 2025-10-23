@@ -53,7 +53,7 @@ export const dataAboutPage = [
         title: "Front End Developer",
         subtitle: "Rogans SAS",
         description: "Designed and developed internal web applications to enhance operational visibility and decision-making.\nImplementation of reusable components, improving code maintainability and performance.\nCollaboration in the implementation of AI agents using UChat for WhatsApp or In App customer interaction automation decreasing costs by 40% and improving user experience.\nCollaborated with the development team to implement designs aligned with UX&UI good practices.\nImplemented automation workflows that reduced the commercial team's operational time by 20%.",
-        date: "Mar 2025 - Present",
+        date: "Mar 2025 - Oct 2025",
     },
     {
         id: 1,
