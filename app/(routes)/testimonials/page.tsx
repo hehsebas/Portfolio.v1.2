@@ -16,7 +16,7 @@ function TestimonialsPage() {
           <MotionTransition position="top">
             <div className="flex flex-col justify-center">
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-                    Some testimonials from my clients.
+                    Some testimonials from my clients and partners.
                 </h1>
                 <div className="flex items-center justify-center">
                     <div>
