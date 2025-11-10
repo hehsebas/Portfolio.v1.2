@@ -148,6 +148,7 @@ main {
   overflow: hidden;
 }
 
+
 .animate-floating {
   animation: floating 3s infinite;
 }

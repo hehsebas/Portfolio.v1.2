@@ -134,7 +134,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Web Development",
-        image: "/image-8.png",
+        image: "/RogansWeb.webp",
     },
     {
         id: 2,
@@ -208,6 +208,13 @@ export const dataTestimonials = [
         description:
             "What a fantastic discovery! The testimonials here are honest and detailed. I feel more confident making decisions after reading the experiences shared by other users.",
         imageUrl: "/Testi-4.jpg",
+    },
+    {
+        id: 5,
+        name: "Rogans",
+        description:
+            "Sebastian is a great developer and a great person. He is always willing to help and he is a great team player.",
+        imageUrl: "/RogansIcon.webp",
     },
     /*{
         id: 5,

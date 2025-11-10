@@ -3,6 +3,7 @@ import {Poppins} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
+import WhatsAppButton from "@/components/whatsapp-button";
 import "swiper/css/bundle";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
@@ -53,6 +54,7 @@ export default function RootLayout({
         <Navbar />
         <Header />
         {children}
+        <WhatsAppButton />
         
         {/* Google Analytics */}
         <Script 
