@@ -50,23 +50,30 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 0,
-        title: "Front End Developer",
+        title: "Software Engineer",
         subtitle: "Rogans SAS",
-        description: "Designed and developed internal web applications to enhance operational visibility and decision-making.\nImplementation of reusable components, improving code maintainability and performance.\nCollaboration in the implementation of AI agents using UChat for WhatsApp or In App customer interaction automation decreasing costs by 40% and improving user experience.\nCollaborated with the development team to implement designs aligned with UX&UI good practices.\nImplemented automation workflows that reduced the commercial team's operational time by 20%.",
+        description: "Development and maintenance of responsive landing pages and internal web applications using React, PHP, JavaScript and Tailwind CSS, ensuring scalability and high performance.\nDesign of modular UI components and reusable layouts, reducing page load times by 40%.\nIntegration of UChat AI, Latenode, Power Automate, and n8n to automate web and application data workflows, connecting platforms with the intenal ERP Odoo\nExecution of ETL processes using Python and MySQL to automate data collection, cleansing, and synchronization across systems\nDiagnosis and resolution of incidents in multi-platform web environments, ensuring system stability and continuous availability.\n Collaboration with marketing and product teams to align UI/UX, SEO, and technical automation goals under agile methodologies \n Participation in functional and technical application design, supporting flow modeling and UML diagrams at a functional level",
         date: "Mar 2025 - Oct 2025",
     },
     {
-        id: 1,
-        title: "Frontend Developer",
-        subtitle: "Workana Freelancer",
-        description: "Created a modern and engaging UI with interactive elements to improve user experience.\nImplemented SEO optimization techniques to enhance visibility and search rankings. Designed and developed e-commerce platforms with emphasis on performance and scalability.\nCreated and maintained reusable components and design systems to improve development efficiency.\nIntegrated RESTful APIs for real-time product and transaction data management.\nWorked closely with UX/UI teams to enhance usability and accessibility.\nManaged codebase using Git, collaborating through GitHub in an agile environment.\nCollaboration with UX/UI designers to enhance user experience. \n Version control using Git and collaboration through GitHub working under agile methodologies.",
-        date: "Jun 2023-May 2025",
+        id:1,
+        title: "Data Analyst",
+        subtitle: "DevLock",
+        description: "Design and implementation of data pipelines in Python to collect, clean, and transform structured data from CSV files, APIs, and SQL databases\nData preprocessing and validation using pandas and numpy to ensure consistency and reliability for analysis\nDevelopment of interactive dashboards for operational and business metrics, enabling KPI tracking and trend analysis\nExecution of exploratory data analysis (EDA) to identify patterns, anomalies, and optimization opportunities.\nAutomation of recurring reports and data monitoring tasks, reducing manual effort and improving data availability\nCollaboration with engineering and product teams to translate business requirements into data-driven insights\nDocumentation of data models, transformations, and assumptions to ensure reproducibility and knowledge transfer.",
+        date: "Jan 2025 - May 2025"
     },
     {
         id: 2,
+        title: "Frontend Developer",
+        subtitle: "Workana Freelancer",
+        description: "Development of frontend web applications for enterprise clients, applying reusable component patterns and architectural best practices.\nImplementation of scalable interfaces using React and JavaScript, prioritizing maintainability and visual consistency.\nIntegration of backend services through REST APIs and management of complex frontend states.\nCreation and maintenance of reusable components and design systems to improve development efficiency.\nImplementation of automation and integrations using n8n and Power Automate.\nCodebase management using Git and GitHub in agile environments.",
+        date: "Jun 2023-Present",
+    },
+    {
+        id: 3,
         title: "Maintenance Engineer Intern",
         subtitle: "SLB",
-        description: "Designed and developed internal web applications to enhance operational visibility and decision-making.\nCollaborated with cross-functional teams to integrate real-time Power BI dashboards for proactive monitoring and analytics.\nContributed to the automation of cable inspection processes by implementing PLC-based control systems.\nDeveloped and deployed real-time data synchronization and notification features.\nPerformed quality control inspections on ESP pump components, including motors and protectors, ensuring compliance with engineering specifications.\nMaintained and calibrated testing tools and equipment to support accurate diagnostics and performance evaluations.\nWorked alongside backend developers to optimize system performance, improve scalability, and enhance user experience.",
+        description: "Design and development of internal web applications to improve operational visibility and decision-making.\nCollaboration with cross-functional teams to integrate real-time Power BI dashboards for proactive monitoring and analysis.\nContribution to the automation of cable inspection processes through the implementation of PLC-based control systems.\nSupport for real-time data synchronization and notification features for time measurement and assembly process optimization.\nQuality control inspections of ESP pump components, ensuring compliance with technical specifications and proposing improvements to reduce assembly time and increase safety\nMaintenance and calibration of testing tools and equipment to ensure accurate diagnostics and performance evaluations.\nClose collaboration with backend developers to optimize system performance, scalability, and user experience.",
         date: "Dec 2023-Dec 2024",
     },
 ]
